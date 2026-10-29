@@ -1,0 +1,1 @@
+{"do_lower_case": false, "do_basic_tokenize": false, "never_split": null, "unk_token": "<unk>", "sep_token": "<eos>", "pad_token": "<pad>", "cls_token": "<sos>", "mask_token": "<mask>", "tokenize_chinese_chars": false, "strip_accents": null, "tokenizer_class": "BertTokenizer"}

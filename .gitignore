@@ -1,0 +1,66 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+build/
+dist/
+.eggs/
+*.egg-info/
+*.so
+*.o
+*.a
+
+# Runtime outputs
+output/
+test/
+log/
+artifacts/
+numAnchor_artifact/
+work/
+results_tmp/
+
+# Local artifact payloads must stay outside the code-only GitHub repo.
+*.pt
+*.pth
+*.bin
+*.pkl
+*.npy
+*.npz
+*.model
+*.tar
+*.tar.*
+*.zip
+*.gz
+pool_ids*.json
+pool_function_blocks*.json
+
+# Project-local model/output directories
+PalmTree/PalmTreeModel/
+Bert/BertModel/
+Bert_function/BertModel/
+JTrans/models/
+JTrans/experiments/
+JTrans/external_data/
+JTrans/JtransModel/
+Stateformer/checkpoints/
+Stateformer/StateformerModel/
+Stateformer/data-raw/
+Stateformer/experimental/
+trex/Trexmodel/
+
+# Code-only anonymous GitHub artifact excludes packaged data samples.
+**/data-src/
+**/dataset_sample/
+**/sample_binary/
+**/sample_output/
+
+# Figures are not part of the artifact repository.
+draw/
+*.png
+*.pdf
+*.svg
+*.gif
+*.jpg
+*.jpeg
